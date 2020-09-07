@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+
+    .content{
+
+        position: fixed;
+        left: 0;
+        top: 10%;
+        width: 100%;
+        
+    }
+    .result-content{
+
+        position: fixed;
+        left: 0;
+        bottom: 10%;
+         height: 70%;
+         width:100%;
+          
+    }
+

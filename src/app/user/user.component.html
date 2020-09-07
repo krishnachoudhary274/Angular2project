@@ -1,0 +1,19 @@
+<!-- <h3>User Details</h3>
+<ul>
+<li *ngFor="let userdetails of user">
+{{userdetails}}
+
+</li>
+</ul> -->
+<div class="content">
+<h1>User Details Information</h1>
+<div *ngIf="user">
+<h3>{{user.name | uppercase}}</h3>
+<p>email : {{user.email}}</p>
+<small>followers: {{user.followers}}</small>
+<p> created at : {{user.created_at | date}}</p>
+
+
+</div>
+
+</div>
